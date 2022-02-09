@@ -34,7 +34,7 @@ public class DestroyBox : MonoBehaviour
             Destroy(gameObject, 0.5f);
             //add to the score - get the public float "score" from ScoreStorage class, and change its value to score + however much box is worth
             PointCounter.scoreValue += value;
-            Debug.Log("the score is " + PointCounter.scoreValue);
+            //Debug.Log("the score is " + PointCounter.scoreValue);
         }
 
         //step 2: add to the score, which is stored in another script

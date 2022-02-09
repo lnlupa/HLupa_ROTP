@@ -14,7 +14,7 @@ public class FollowPiggy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //camera follows the piggy as long as the piggy is within the bounds of the level
         if (transform.position.x < 9.5f) 
         {
             Vector3 newPosCamera = new Vector3(piggy.position.x, transform.position.y, transform.position.z);

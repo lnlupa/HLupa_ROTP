@@ -7,7 +7,6 @@ public class PointDisplay : MonoBehaviour
 {
     public PointCounter score;
     Text screenScore;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +16,7 @@ public class PointDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //sending the score from the pointCounter to the onscreen score
         screenScore.text = "Score: " + score.scoreValue;
     }
 }
